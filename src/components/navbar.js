@@ -1,16 +1,32 @@
 import { Component } from "react";
 import "./navbarstyle.css";
+import { MenuItems } from "./MenuItems";
 
-class navbar extends Component{
+
+class Navbar extends Component{
+    state = {clicked:false};
+    handleclick=()=>{
+        this.setState({clicked:!this.state.clicked})
+    }
     render(){
         return(
-            <nav className="Navbaritems">
-                <h1 className="navbar-logo">Trippy</h1>
-                <ul className="nav-menu">
-                        <li><Link>Home</Link></li>
-                        <li></li>
+            <nav className="NavBarItems">
+                <h1 className="navbar-logo">Dawn Resorts</h1>
+                <div className="menu-icons">
+                    <i onClick={this.handleclick} className={this.state.clicked ? "fas fa-times":"fas fa-bars"}></i>
+                   
+                </div>
+                <ul className={this.state.clicked ? "nav-menu active":"nav-menu"}>
+                    {MenuItems.map((item,index)=>{
+                        return(
+                            <li key={index}><a className={item.cName} href="/"><i class={item.icon}></i>{item.title}</a></li>
+                        )
+                    })}
+                    
+                     
                 </ul>
             </nav>
-        )
+        );
     }
 }
+export default Navbar; 

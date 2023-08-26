@@ -1,4 +1,4 @@
-// import Navbar from './components/Navbar';
+ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import myImage from '../assets/location.jpeg';
 
@@ -6,7 +6,7 @@ import myImage from '../assets/location.jpeg';
 function Home() { 
     return (
      <>
-        {/* <Navbar> */}
+   <Navbar/>
         <Hero
         cName="hero"
         heroImg= {myImage}

@@ -30,8 +30,7 @@ function Home() {
 
         
        
-        <Footer/>
-        <Navbar/>
+   
 
         <Description/>
         <Highlights/>

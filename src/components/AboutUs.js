@@ -1,6 +1,6 @@
 import "./AboutUsStyles.css"
 
-function AboutUs (){
+function AboutUs (){ 
     return(
         <div className="about-container">
                  <h1>Our History</h1>

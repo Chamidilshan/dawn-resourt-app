@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import myImage from '../assets/location.jpeg';
 import Footer from '../components/Footer';
+import Trip from '../components/Trip';
 
 
 function Home() { 
@@ -17,8 +18,10 @@ function Home() {
         url="/"
         btnClass="show"
         />
-        <Navbar/> 
+        
+        <Trip/> 
         <Footer/>
+        <Navbar/>
      </>
     );
   } 

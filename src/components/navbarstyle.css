@@ -14,6 +14,10 @@
   transform: translate(-50%);
 }
 
+.navbaritmes-bg{
+  background-color: #fff;
+}
+
 .navbar-logo {
   color: #ffffff;
   font-size: 2rem;
@@ -41,9 +45,9 @@
 }
 
 .nav-links:hover {
-  background-color: aqua;
+  background-color: rgba(254, 255, 255, 0.193);
   color: #fff;
-  border-radius: 4px;
+  border-radius: 15px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -55,31 +59,39 @@
 @media screen and (max-width: 850px) {
   .NavBarItems {
     z-index: 99;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.26);
+  }
+
+  .fa-times{
+    color: white;
+  }
+  .fa-bars{
+    color: white;
   }
   .nav-menu {
     display: flex;
-    
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #fbfbfb;
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     height: auto;
     position: absolute;
     transition: all 0.4s ease-in-out;
-    top: 0;
+    top: 100%;
     left: -100%;
-    opacity: 1;
+    /* opacity: 1; */
     align-items: stretch;
-    padding: 80px 0 30px 0;
+    padding: 20px 0 30px 0;
     margin: 0;
     z-index: -1;
   }
   .nav-menu.active {
     left: 0;
-    opacity: 1;
+    /* opacity: 1; */
     z-index: -1;
-    transition: all 0.4s ease-in-out;
-    top: 20%;
+    /* transition: all 0.4s ease-in-out; */
+    top: 100%;
   }
   .nav-links {
     display: block;

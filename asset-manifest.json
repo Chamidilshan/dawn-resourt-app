@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dawn-resourt-app/static/css/main.a3b8bd84.css",
+    "main.js": "/dawn-resourt-app/static/js/main.bccc0f87.js",
+    "static/js/787.c6006e9a.chunk.js": "/dawn-resourt-app/static/js/787.c6006e9a.chunk.js",
+    "static/media/location.jpeg": "/dawn-resourt-app/static/media/location.bf38b87b5c689077a43e.jpeg",
+    "static/media/chairs.jpeg": "/dawn-resourt-app/static/media/chairs.aa47b3c466177f19c06b.jpeg",
+    "static/media/home.jpeg": "/dawn-resourt-app/static/media/home.3d2326c71e2f1a1a0a4f.jpeg",
+    "static/media/sembuwatte.jpg": "/dawn-resourt-app/static/media/sembuwatte.f6dec70fe10c12524d0c.jpg",
+    "static/media/bedroom.jpeg": "/dawn-resourt-app/static/media/bedroom.286b0bd5f2a6b5c40268.jpeg",
+    "static/media/shade.jpeg": "/dawn-resourt-app/static/media/shade.af9cbb18f33be79bd18c.jpeg",
+    "static/media/kanthi.jpeg": "/dawn-resourt-app/static/media/kanthi.bae5d487b9281898aa25.jpeg",
+    "static/media/tea.jpeg": "/dawn-resourt-app/static/media/tea.acd55082dd6aa7028362.jpeg",
+    "static/media/riverston.jpg": "/dawn-resourt-app/static/media/riverston.70335ef3c91415f2a48d.jpg",
+    "static/media/horton.jpg": "/dawn-resourt-app/static/media/horton.455fd64dcef437ccc815.jpg",
+    "static/media/logo.svg": "/dawn-resourt-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dawn-resourt-app/index.html",
+    "main.a3b8bd84.css.map": "/dawn-resourt-app/static/css/main.a3b8bd84.css.map",
+    "main.bccc0f87.js.map": "/dawn-resourt-app/static/js/main.bccc0f87.js.map",
+    "787.c6006e9a.chunk.js.map": "/dawn-resourt-app/static/js/787.c6006e9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3b8bd84.css",
+    "static/js/main.bccc0f87.js"
+  ]
+}

@@ -13,9 +13,7 @@ function About() {
      <>
 
       <Navbar/>
-        <Hero
-        cName="this is about"
-        />
+        
 
               <Hero  
         cName="hero-mid"

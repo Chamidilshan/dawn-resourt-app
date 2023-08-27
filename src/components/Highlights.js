@@ -4,7 +4,7 @@ import statue2 from "../assets/shade.jpeg";
 
 const Highlights=()=>{
     return(
-        <div className="highlights">
+    <div className="highlights">
       <h1>Highlights</h1>
       <div className="first-des-reverse">
         <div className="des-text">

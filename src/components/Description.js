@@ -7,7 +7,7 @@ import { forwardRef } from "react";
 const Description = () => {
   return (
     <div className="about">
-      <h1>About Us</h1>
+      <h1 id="about">About Us</h1>
       <div className="first-des">
         <div className="des-text">
           <p>

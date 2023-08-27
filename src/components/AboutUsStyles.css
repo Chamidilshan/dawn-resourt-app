@@ -1,8 +1,12 @@
 .about-container{
     margin: 4rem 6rem;
     text-align: start;
+    text-align: center;
 }
 
+html {
+   scroll-behavior: smooth;
+ }
 .about-container h1{
    padding-bottom: 1rem;
 }

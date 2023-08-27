@@ -1,8 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-
-import myImage from '../assets/location.jpeg';
-
+import Footer  from "../components/Footer";
 import myImageAbout from '../assets/home.jpeg';
 import AboutUs from '../components/AboutUs';
 
@@ -25,6 +23,7 @@ function About() {
         />
         <AboutUs/>
         <Navbar/> 
+        <Footer/>
 
      </>
     );

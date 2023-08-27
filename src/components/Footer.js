@@ -9,7 +9,7 @@ const Footer = () => {
           <p>Your dream escape awaits.</p>
         </div>
         <div className="social-icons">
-          <a href="https://www.facebook.com/">
+          <a href="https://web.facebook.com/profile.php?id=100088991864049">
             <i className="fa-brands fa-facebook-square"></i>
           </a>
           <a href="https://www.instagram.com/">
@@ -31,7 +31,9 @@ const Footer = () => {
         </div>
 
         <div className="section">
-          <h4>Contact Us</h4>
+          {/* <h4>Contact Us</h4> */}
+          
+          <a href="/Contact"><h4>Contact Us</h4></a>
           <p>No/28,</p>
           <p>Elkaduwa Village</p>
           <p>Elkaduwa</p>

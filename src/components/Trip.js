@@ -9,7 +9,7 @@ function Trip(){
         <div className="trip">
             <h1>Top Places</h1>
             <p>You can deiscover unique 
-                destinations with us
+                destinations near with us.
             </p>
 
             <div className="tripcard"> 

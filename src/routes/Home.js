@@ -6,6 +6,7 @@ import Description from '../components/Description';
 import Hero from '../components/Hero';
 import myImage from '../assets/location.jpeg';
 import Footer from '../components/Footer';
+import Trip from '../components/Trip';
 
 
 
@@ -27,9 +28,14 @@ function Home() {
         btnClass="show"
         />
 
+        
+       
+        <Footer/>
+        <Navbar/>
+
         <Description/>
         <Highlights/>
-
+         <Trip/> 
         <Navbar/> 
         <Footer/>
 

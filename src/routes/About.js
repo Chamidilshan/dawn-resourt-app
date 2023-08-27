@@ -1,7 +1,14 @@
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import myImage from '../assets/location.jpeg';
+
 function About() {
     return (
      <>
-      <h1>This is about</h1>
+      <Navbar/>
+        <Hero
+        cName="this is about"
+        />
      </>
     );
   }

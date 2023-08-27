@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero  from "../components/Hero";
+import Footer  from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import img from "../assets/tea.jpeg";
 
@@ -9,15 +10,13 @@ function Contact() {
      <>
         
         <Hero
-        cName="hero"
+        cName="hero-mid"
         heroImg= {img}
         title="Contact Us"
-        
-        
-        
         />
         <Navbar/>
         <ContactForm/>
+        <Footer/>
         </>
    
   );

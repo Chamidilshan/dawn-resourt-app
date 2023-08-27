@@ -1,12 +1,13 @@
-// import Navbar from './components/Navbar';
+import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import myImage from '../assets/location.jpeg';
+import Footer from '../components/Footer';
 
 
 function Home() { 
     return (
-     <>
-        {/* <Navbar> */}
+     <> 
+        
         <Hero
         cName="hero"
         heroImg= {myImage}
@@ -16,6 +17,8 @@ function Home() {
         url="/"
         btnClass="show"
         />
+        <Navbar/> 
+        <Footer/>
      </>
     );
   } 

@@ -1,4 +1,4 @@
-function Service() {
+function Gallery() {
     return (
      <>
       <h1>This is service</h1>
@@ -6,4 +6,5 @@ function Service() {
     );
   }
   
-  export default Service;
+  export default Gallery;
+  

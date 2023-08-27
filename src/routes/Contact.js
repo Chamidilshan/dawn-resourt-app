@@ -1,8 +1,25 @@
+import Navbar from "../components/Navbar";
+import Hero  from "../components/Hero";
+import ContactForm from "../components/ContactForm";
+import img from "../assets/tea.jpeg";
+
 function Contact() {
   return (
-   <>
-    <h1>This is contact</h1>
-   </>
+   
+     <>
+        
+        <Hero
+        cName="hero"
+        heroImg= {img}
+        title="Contact Us"
+        
+        
+        
+        />
+        <Navbar/>
+        <ContactForm/>
+        </>
+   
   );
 }
 

@@ -40,7 +40,7 @@
 .phone-line {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -110,10 +110,10 @@
   color: #01959a;
 }
 
-.map-section{
-  flex-basis: 100%;
-  margin-top: 2.5rem;
-}
+.map-section {
+    order: 3; /* Change the order of the map to appear after the phone number */
+    margin-top: 1.5rem; /* Add some space between the phone number and map */
+  }
 
 @media screen and (max-width: 850px) {
   .footer {
@@ -125,8 +125,44 @@
     text-align: center;
   }
 
+  .address-line,
+  .phone-line {
+    flex-direction: column; /* Stack icon and details vertically */
+    align-items: flex-start; /* Align icon and details to the start */
+    margin-top: 5px; /* Add some spacing between stacked elements */
+  }
+
+  .address-icon,
+  .phone-icon {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 5px; /* Add bottom margin for spacing */
+  }
+
+  .address-text,
+  .phone-details h4 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    line-height: 1.4; /* Increase line height for readability */
+  }
+
   .section {
     flex-basis: 100%;
     margin-bottom: 1.5rem;
+  }
+
+  .map-section {
+    flex-direction: column; /* Stack the address and map vertically */
+  }
+
+  .contact-section {
+    margin-bottom: 1.5rem; /* Add some spacing between address and map */
+  }
+
+  .gmap-frame {
+    width: 100%; /* Make the map take up the full width */
+  }
+
+  .gmap-frame iframe {
+    width: 100%; /* Make the iframe inside the map take up the full width */
+    height: 300px; /* Set the desired height for the map on smaller screens */
   }
 }

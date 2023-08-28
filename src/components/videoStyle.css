@@ -1,0 +1,31 @@
+.videoholder{
+    padding-top: 30px;
+}
+
+.videoholder h1{
+    padding-bottom: 30px;
+    font-size: 2.5rem;
+}
+.video-area{
+    height: 100vh;
+}
+
+.video{
+    height: 80vh;
+    width: 92vw;
+}
+
+@media screen and (max-width:855px) {
+    .videoholder{
+        padding-top: -100px;
+    }
+    .video-area{
+        height: 70vh;
+    }
+
+.video{
+    height: 50vh;
+    width: 92vw;
+}
+
+}

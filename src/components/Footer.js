@@ -24,8 +24,8 @@ const Footer = () => {
       <div className="bottom">
         <div className="section">
           <h4>Explore</h4>
-          <a href="/">Accommodations</a>
-          <a href="/">Dining</a>
+          <a href="http://localhost:3000/Gallery#accomo">Accommodations</a>
+          <a href="http://localhost:3000/Gallery#dining">Dining</a>
           <a href="/">Spa & Wellness</a>
           <a href="/">Activities</a>
         </div>

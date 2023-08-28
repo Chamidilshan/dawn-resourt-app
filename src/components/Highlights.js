@@ -8,7 +8,7 @@ const Highlights=()=>{
       <h1>Highlights</h1>
       <div className="first-des-reverse">
         <div className="des-text">
-          <p>
+          <p className="para">
             Advisory Window is a family-owned company and are local experts with
             a friendly team to support your all insurance and mortgage needs. As
             your financial adviser/s, we not only give you the best financial

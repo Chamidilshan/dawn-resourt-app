@@ -8,7 +8,7 @@ function TripData(props){
                 <img src={props.image} alt="image "/>
             </div>
             
-            <h4>{props.heading}</h4>
+            <h2>{props.heading}</h2>
             <p>{props.text}</p>
 
         </div>

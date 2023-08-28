@@ -54,7 +54,7 @@ const   ContactForm = () =>{
 
     return (
         <div className="form-container">
-            <h1>Hi! Send a message to us</h1>
+            <h1>Hi! We would love to hear from you</h1>
             <form onSubmit={handleSubmit}>
                 <input
                     placeholder="Name"

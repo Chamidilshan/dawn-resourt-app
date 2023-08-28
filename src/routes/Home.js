@@ -18,7 +18,7 @@ function Home() {
         title="Dawn Resorts"
         text="Experience the serenity"
         btnText="Begin Journey"
-        url="http://localhost:3000/#about"
+        url="/#about"
         btnClass="show"
       />
 

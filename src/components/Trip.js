@@ -8,7 +8,7 @@ function Trip(){
     return(
         <div className="trip">
             <h1>Top Places</h1>
-            <p>You can deiscover unique 
+            <p>You can discover unique 
                 destinations near with us.
             </p>
 

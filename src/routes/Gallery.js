@@ -1,10 +1,10 @@
 import Galleryy from "../components/Gallery";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-
+import Footer  from "../components/Footer";
 import myImage from "../assets/location.jpeg";
 
-import myImageAbout from "../assets/tea.jpeg";
+import myImageAbout from "../assets/4.jpg";
 import AboutUs from "../components/AboutUs";
 
 function Gallery() {
@@ -20,9 +20,9 @@ function Gallery() {
         url="/"
         btnClass="hide"
       />
-      
       <Galleryy />
       <Navbar />
+      <Footer/>
     </>
   );
 }

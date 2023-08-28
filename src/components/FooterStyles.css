@@ -12,6 +12,58 @@
   flex-wrap: wrap;
 }
 
+.map-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  flex: 1;
+  padding: 20px;
+  /* background-color: #f4f4f4; */
+}
+
+.address h3 {
+  font-size: 1.6rem;
+  padding-bottom: 0.8rem;
+  text-align: start;
+}
+
+.address-line,
+.phone-line {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.address-icon,
+.phone-icon {
+  margin-right: 10px;
+}
+
+.address-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.gmap-frame {
+  flex: 1;
+}
+
+
+.gmap-frame {
+  flex: 1;
+}
+
+
 .social-icons {
   display: flex;
   align-items: center;
@@ -56,6 +108,11 @@
 
 .section a:hover {
   color: #01959a;
+}
+
+.map-section{
+  flex-basis: 100%;
+  margin-top: 2.5rem;
 }
 
 @media screen and (max-width: 850px) {

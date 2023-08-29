@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from './components/Navbar';
 
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from './routes/Home'; 
 import About from './routes/About';
 import Gallery from './routes/Gallery';
@@ -12,7 +12,6 @@ import Contact from './routes/Contact';
 
 export default function App(){
   return (
-    <HashRouter basename='/'> 
     <div className="App">
       
       <Routes> 
@@ -25,8 +24,6 @@ export default function App(){
       {/* <Navbar> */}
         {/* <Home/> */}
     </div>
-    
-    </HashRouter>
   );
 
        

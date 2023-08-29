@@ -1,6 +1,5 @@
 { 
   "name": "dawn-resourt-app",
-  "homepage": "https://Chamidilshan.github.io/dawn-resourt-app",
   "version": "0.1.0",
    "private": false,
   "dependencies": {
@@ -19,9 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
-    "test": "react-scripts test", 
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

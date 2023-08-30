@@ -50,8 +50,8 @@
 }
 
 .address-text {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .gmap-frame {
@@ -92,8 +92,18 @@
   flex-basis: calc(33.33% - 2rem);
 }
 
+.section i{
+  text-decoration: none;
+  color: #d4d4d4;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+  display: block;
+  transition: color 0.3s ease-in-out;
+}
+
 .section h4 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding: 1rem 0 0.8rem 0;
 }
 
@@ -101,7 +111,16 @@
   text-decoration: none;
   color: #d4d4d4;
   padding-bottom: 0.4rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  display: block;
+  transition: color 0.3s ease-in-out;
+}
+
+.section p{
+  text-decoration: none;
+  color: #d4d4d4;
+  padding-bottom: 0.4rem;
+  font-size: 1rem;
   display: block;
   transition: color 0.3s ease-in-out;
 }
@@ -115,11 +134,11 @@
     margin-top: 1.5rem; /* Add some space between the phone number and map */
   }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) { 
   .footer {
     padding: 4rem 2rem;
   }
-
+ 
   .top {
     justify-content: center;
     text-align: center;

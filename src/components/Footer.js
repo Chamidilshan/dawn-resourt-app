@@ -39,36 +39,23 @@ const Footer = () => {
           <a href="/">Awards</a>
         </div>
 
-        
-      </div>
-
-      <div className="contact-section">
-  <div className="address">
-    <h3>Our Address</h3>
-    <div className="address-line">
-      <div className="address-icon">
+        <div className="section">
+    <h4>Our Address</h4>
+      
         <i className="fas fa-map-marker-alt"></i>
-      </div>
-      <div className="address-details">
+     
       <p className="address-text">
           No/28, Elkaduwa Village, Elkaduwa,
           Sri Lanka
         </p>
-      </div>
-    </div>
-    <div className="phone-line">
-      <div className="phone-icon">
         <i className="fas fa-phone"></i>
-      </div>
-      <div className="phone-details">
-        <h4> +94 1122 467 78 </h4>
-      </div>
-    </div>
+        <p> +94 1122 467 78 </p>
   </div>
-  <div className="gmap-frame">
+
+        <div className="section">
     <iframe
       title="Google Map"
-      width="450"
+      width="350"
       height="350"
       frameborder="0"
       scrolling="no"
@@ -77,6 +64,13 @@ const Footer = () => {
       src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Dawn%20resorts,%20Elkaduwa,%20Elkaduwa,%20Sri%20Lanka%20+(Dawn%20Resorts)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       ></iframe>
   </div>
+
+        
+      </div>
+
+      <div className="contact-section">
+  
+  
 </div> 
 
 

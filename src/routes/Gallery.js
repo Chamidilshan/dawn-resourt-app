@@ -10,7 +10,7 @@ import AboutUs from "../components/AboutUs";
 function Gallery() {
   return (
     <>
-      <Navbar />
+      
 
       <Hero
         cName="hero-mid"

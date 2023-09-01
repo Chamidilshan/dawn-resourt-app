@@ -14,10 +14,25 @@
   transform: translate(-50%);
 }
 
+.logo-scrolled {
+  width: 16%;
+  /* height: 2%; */
+  margin-left: 30px;
+  display: block;
+  filter: invert(100%);
+}
+
+.logo {
+  width: 16%;
+  /* height: 2%; */
+  margin-left: 30px;
+  display: block;
+  
+}
+
 .scrolled {
   background-color: #fff;
   transition: all 600ms ease;
-  
 }
 
 .solid {
@@ -109,18 +124,17 @@
     color: white;
   }
 
-  .fa-times .scrolled{
+  .fa-times .scrolled {
     color: rgb(0, 0, 0);
   }
-
 
   .fa-bars {
     color: white;
   }
 
-.scrolled-hamburger{
-  color: black;
-}
+  .scrolled-hamburger {
+    color: black;
+  }
 
   .nav-menu {
     display: flex;

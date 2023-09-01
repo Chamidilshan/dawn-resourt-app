@@ -7,8 +7,8 @@ import Place3 from "../assets/riverston.jpg";
 function Trip(){
     return(
         <div className="trip">
-            <h1>Top Places</h1>
-            <p>You can discover unique 
+            <h1>Discover Activities</h1>
+            <p className="sub-head" style={{ fontSize: '1.2rem' }}>You can discover unique 
                 destinations near with us.
             </p>
 

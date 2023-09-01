@@ -3,6 +3,7 @@
     border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.09);
   padding: 30px;
+  height: 34rem;
 }
 
 .about h1 {
@@ -13,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4.5rem;
+  margin-top: 2.5rem;
   text-align: center;
 }
 
@@ -53,6 +54,7 @@
 @media screen and (max-width: 850px) {
   .about {
     margin: 4rem 2rem;
+    height: 50rem;
   }
 
   .first-des {
@@ -63,6 +65,9 @@
 
   .des-text{
     width: 100%;
+  }
+  .des-text p{
+    padding: 20px;
   }
 
   .image{

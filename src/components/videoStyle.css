@@ -13,6 +13,23 @@
 .video{
     height: 80vh;
     width: 92vw;
+    display: block;
+    padding-left: 7%;
+    padding-bottom: 2.5rem;
+}
+
+.view-more-btn{
+   
+    padding-top: 4rem;
+    background: #eed6a1;
+  font-size: 1.1 rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  color: #222;
+  letter-spacing: 2px;
+
 }
 
 @media screen and (max-width:855px) {

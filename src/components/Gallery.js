@@ -86,7 +86,7 @@ const Gallery=()=>{
             <div className="fas fa-times" onClick={()=>setModel(false)}></div>
       </div>
       <h1 id="accomo">Accomodation</h1>
-        <div className="gallery"> 
+        <div id="gallery" className="gallery"> 
         {data.map((item,index)=>{
             return(
                 <div className="pics" key={index} onClick={() => getImg(item.imgsrc)}>

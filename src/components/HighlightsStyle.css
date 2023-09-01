@@ -3,10 +3,12 @@
       border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.09);
     padding-bottom: 60px;
+    height: 35rem;
   }
   
   .highlights h1 {
     font-size: 3rem;
+    padding-top: 3rem;
   }
   
   .first-des {
@@ -79,6 +81,7 @@
   @media screen and (max-width: 850px) {
     .highlights {
       margin: 4rem 2rem;
+      height: 45rem;
     }
   
     .first-des-reverse {
@@ -90,7 +93,9 @@
     .des-text{
       width: 100%;
     }
-  
+    .des-text p{
+      padding: 20px;
+    }
     .image-highlights{
       width: 90%;
       margin: 1.8rem 0;

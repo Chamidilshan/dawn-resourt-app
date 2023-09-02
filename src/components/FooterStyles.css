@@ -1,187 +1,64 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
   margin-top: 40px;
   padding: 4rem 6rem;
   background-color: #242424;
   color: #fff;
 }
 
-.top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.map-section{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.contact-section {
-  display: flex;
-  align-items: center;
-}
-
-.address {
-  flex: 1;
-  padding: 20px;
-  /* background-color: #f4f4f4; */
-}
-
-.address h3 {
-  font-size: 1.6rem;
-  padding-bottom: 0.8rem;
-  text-align: start;
-}
-
-.address-line,
-.phone-line {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.address-icon,
-.phone-icon {
-  margin-right: 10px;
-}
-
-.address-text {
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.gmap-frame {
+.column {
   flex: 1;
 }
 
-
-.gmap-frame {
-  flex: 1;
-}
-
-
-.social-icons {
+.row {
   display: flex;
-  align-items: center;
 }
 
-.social-icons a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 0 1rem;
-  transition: color 0.3s ease-in-out;
+.map-section {
+  margin-bottom: 1rem;
 }
 
-.social-icons a:hover {
-  color: #01959a;
-}
-
-.bottom {
-  padding-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.map {
+  width: 70%;
+  height: 300px;
+  border: none;
 }
 
 .section {
-  flex-basis: calc(33.33% - 2rem);
-}
-
-.section i{
-  text-decoration: none;
-  color: #d4d4d4;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  font-size: 1rem;
-  display: block;
-  transition: color 0.3s ease-in-out;
+  flex: 1;
+  padding: 1rem;
 }
 
 .section h4 {
+  margin-top: 0;
   font-size: 1rem;
-  padding: 1rem 0 0.8rem 0;
+  padding-bottom: 0.8rem;
 }
 
-.section a {
-  text-decoration: none;
+.section a,
+.section p {
   color: #d4d4d4;
-  padding-bottom: 0.4rem;
-  font-size: 1rem;
-  display: block;
-  transition: color 0.3s ease-in-out;
-}
-
-.section p{
   text-decoration: none;
-  color: #d4d4d4;
-  padding-bottom: 0.4rem;
-  font-size: 1rem;
-  display: block;
-  transition: color 0.3s ease-in-out;
+  line-height: 1.5;
 }
 
 .section a:hover {
   color: #01959a;
 }
 
-.map-section {
-    order: 3; /* Change the order of the map to appear after the phone number */
-    margin-top: 1.5rem; /* Add some space between the phone number and map */
-  }
-
-@media screen and (max-width: 850px) { 
+/* Responsive styles */
+@media screen and (max-width: 850px) {
   .footer {
-    padding: 4rem 2rem;
-  }
- 
-  .top {
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
   }
 
-  .address-line,
-  .phone-line {
-    flex-direction: column; /* Stack icon and details vertically */
-    align-items: flex-start; /* Align icon and details to the start */
-    margin-top: 5px; /* Add some spacing between stacked elements */
-  }
-
-  .address-icon,
-  .phone-icon {
-    margin-right: 0; /* Remove right margin */
-    margin-bottom: 5px; /* Add bottom margin for spacing */
-  }
-
-  .address-text,
-  .phone-details h4 {
-    font-size: 1rem; /* Adjust font size for smaller screens */
-    line-height: 1.4; /* Increase line height for readability */
+  .column {
+    margin-bottom: 2rem;
   }
 
   .section {
-    flex-basis: 100%;
-    margin-bottom: 1.5rem;
-  }
-
-  .map-section {
-    flex-direction: column; /* Stack the address and map vertically */
-  }
-
-  .contact-section {
-    margin-bottom: 1.5rem; /* Add some spacing between address and map */
-  }
-
-  .gmap-frame {
-    width: 100%; /* Make the map take up the full width */
-  }
-
-  .gmap-frame iframe {
-    width: 100%; /* Make the iframe inside the map take up the full width */
-    height: 300px; /* Set the desired height for the map on smaller screens */
+    padding: 1rem 0;
   }
 }

@@ -27,7 +27,7 @@ const Footer = () => {
             <br/>
             <a href="/AboutUs">Testimonials</a>
             <br/>
-            <a href="/AboutUs">Awards</a>
+            <a href="/AboutUs">Awards</a> 
           </div>
           <div className="section">
             <h4>Explore</h4>
@@ -35,9 +35,9 @@ const Footer = () => {
             <br/>
             <a href="/Gallery">Dining</a>
             <br/>
-            <a href="/Gallery">Spa & Wellness</a>
-            <br/>
             <a href="/Gallery">Activities</a>
+            <br/>
+            <a href="/Packages">Packages</a>
           </div>
         </div>
         <div className="row">

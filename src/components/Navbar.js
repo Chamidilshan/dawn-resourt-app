@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./navbarstyle.css";
 import { MenuItems } from "./MenuItems";
 // import bodyscrolllock from "./bodyscolllock";
+import logo from "../assets/dawn.png";
 
 class Navbar extends Component {
 
@@ -47,7 +48,10 @@ class Navbar extends Component {
       
 
       <nav className={`NavBarItems ${isScrolled ? 'scrolled' : ''}`} >
-        <h1 className={`${isScrolled ? 'solid' : 'navbar-logo'}`}>Dawn Resorts</h1>
+        {/* <h1 className={`${isScrolled ? 'solid' : 'navbar-logo'}`}>Dawn Resorts</h1> */}
+        <div>
+          <img className={`logo${isScrolled?'':'-scrolled'}`} src={logo} alt="" />
+        </div>
         <div className="menu-icons">
           <i
             onClick={this.handleclick}

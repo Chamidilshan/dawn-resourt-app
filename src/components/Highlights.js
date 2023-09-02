@@ -4,11 +4,11 @@ import statue2 from "../assets/shade.jpeg";
 
 const Highlights=()=>{
     return(
-    <div className="highlights">
+    <div className="high-highlights">
       <h1>Highlights</h1>
-      <div className="first-des-reverse">
-        <div className="des-text">
-          <p className="para">
+      <div className="high-first-des-reverse">
+        <div className="high-des-text">
+          <p className="high-para">
             Advisory Window is a family-owned company and are local experts with
             a friendly team to support your all insurance and mortgage needs. As
             your financial adviser/s, we not only give you the best financial

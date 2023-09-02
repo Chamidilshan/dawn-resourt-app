@@ -1,15 +1,17 @@
-.highlights {
+.high-highlights {
     margin: 4rem 6rem;
       border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.09);
     padding-bottom: 60px;
+    height: 35rem;
   }
   
-  .highlights h1 {
+  .high-highlights h1 {
     font-size: 3rem;
+    padding-top: 3rem;
   }
   
-  .first-des {
+  .high-first-des {
     display: flex;
     align-items: center;
      
@@ -17,7 +19,7 @@
     margin-top: 4.5rem;
     text-align: center;
   }
-  .first-des-reverse {
+  .high-first-des-reverse {
     display: flex;
     align-items: center;
      flex-direction: row-reverse;
@@ -26,11 +28,11 @@
     text-align: center;
   }
   
-  .first-des p {
+  .high-first-des p {
     text-align: center;
   }
   
-  .des-text {
+  .high-des-text {
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
@@ -70,27 +72,30 @@
     
   }
 
-  .para{
+  .high-para{
     text-align: center;
     padding-right: 2vw;
   }
   
   
   @media screen and (max-width: 850px) {
-    .highlights {
+    .high-highlights {
       margin: 4rem 2rem;
+      height: 45rem;
     }
   
-    .first-des-reverse {
+    .high-first-des-reverse {
       display: flex;
       flex-direction: column-reverse;
       margin-top: 2.5rem;
     }
   
-    .des-text{
+    .high-des-text{
       width: 100%;
     }
-  
+    .high-des-text p{
+      padding: 20px;
+    }
     .image-highlights{
       width: 90%;
       margin: 1.8rem 0;

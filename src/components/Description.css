@@ -1,33 +1,36 @@
-.about {
+.desc-about {
   margin: 4rem 6rem;
     border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.09);
   padding: 30px;
+  height: 34rem;
 }
 
-.about h1 {
+.desc-about h1 {
   font-size: 3rem;
 }
 
-.first-des {
+.desc-first-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4.5rem;
+  margin-top: 2.5rem;
   text-align: center;
 }
 
-.first-des p {
+.desc-first-des p {
   text-align: center;
+  width: 100%;
+  padding-right: 15px;
 }
 
-.des-text {
-  width: 45%;
+.desc-des-text{
+  width: 50%;
   text-align: start;
   font-size: 1.1rem;
 }
 
-.image {
+.desc-image {
   position: relative;
   /* position: absolute;  */
   width: 50%;
@@ -36,7 +39,7 @@
   z-index: -99;
 }
 
-.image img {
+.desc-image img {
   width: 49%;
   height: 350px;
   object-fit: cover;
@@ -44,18 +47,19 @@
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.image img:nth-child(2) {
+.desc-image img:nth-child(2) {
   position: absolute;
   top: -10%;
   right: 0;
 }
 
 @media screen and (max-width: 850px) {
-  .about {
+  .desc-about {
     margin: 4rem 2rem;
+    height: 49rem;
   }
 
-  .first-des {
+  .desc-first-des {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 2.5rem;
@@ -64,12 +68,21 @@
   .des-text{
     width: 100%;
   }
+  .desc-des-text p{
+    padding: 20px;
+    width: 100%;
+  }
 
-  .image{
+  .desc-des-text{
+    width: 100%;
+   
+  }
+  
+  .desc-image{
     width: 100%;
     margin: 1.8rem 0;
   }
-  .image img{
+  .desc-image img{
     height: 250px;
   }
 }

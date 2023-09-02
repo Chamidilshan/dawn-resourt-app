@@ -14,10 +14,27 @@
   transform: translate(-50%);
 }
 
+.logo-scrolled {
+  width: 100px;
+  height: 50px;
+  margin-left: 30px;
+  display: block;
+  filter: invert(100%);
+  transition: all 350ms ease;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  margin-left: 30px;
+  transition: all 350ms ease;
+  display: block;
+  
+}
+
 .scrolled {
   background-color: #fff;
   transition: all 600ms ease;
-  
 }
 
 .solid {
@@ -109,18 +126,17 @@
     color: white;
   }
 
-  .fa-times .scrolled{
+  .fa-times .scrolled {
     color: rgb(0, 0, 0);
   }
-
 
   .fa-bars {
     color: white;
   }
 
-.scrolled-hamburger{
-  color: black;
-}
+  .scrolled-hamburger {
+    color: black;
+  }
 
   .nav-menu {
     display: flex;

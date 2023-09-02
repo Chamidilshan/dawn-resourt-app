@@ -6,10 +6,10 @@ import { forwardRef } from "react";
 
 const Description = () => {
   return (
-    <div className="about">
+    <div className="desc-about">
       <h1 id="about">About Us</h1>
-      <div className="first-des">
-        <div className="des-text">
+      <div className="desc-first-des">
+        <div className="desc-des-text">
           <p>
             Advisory Window is a family-owned company and are local experts with
             a friendly team to support your all insurance and mortgage needs. As
@@ -25,7 +25,7 @@ const Description = () => {
           </p>
         </div>
 
-        <div className="image">
+        <div className="desc-image">
           <img src={statue} alt="img" />
           <img src={statue2} alt="img" />
         </div>

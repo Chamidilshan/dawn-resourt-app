@@ -8,6 +8,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Gallery from './routes/Gallery';
 import Contact from './routes/Contact';
+import Packages from './routes/Packages';
 
 
 export default function App(){
@@ -18,7 +19,8 @@ export default function App(){
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>  
           <Route path="/gallery" element={<Gallery/>}/>  
-          <Route path="/contact" element={<Contact/>}/>  
+          <Route path="/contact" element={<Contact/>}/> 
+          <Route path="/Packages" element={<Packages/>}/>   
         </Routes>
         {/* <Navbar /> */} 
       {/* <Navbar> */}

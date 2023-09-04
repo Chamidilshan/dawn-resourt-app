@@ -4,7 +4,24 @@ import "./FooterStyles.css";
 const Footer = () => {
   return (
     <div className="footer">
+
+      
       <div className="column">
+      <div className="top">
+        <div className="icons">
+          <h1>Dawn Resort</h1>
+          <p>Your dream escape awaits.</p>
+          <a href="https://web.facebook.com/profile.php?id=100088991864049">
+            <i className="fa-brands fa-facebook-square"></i>
+          </a>
+          <a href="https://www.instagram.com/">
+            <i className="fa-brands fa-instagram-square"></i>
+          </a>
+          <a href="https://www.twitter.com/">
+            <i className="fa-brands fa-twitter-square"></i>
+          </a>
+        </div>
+      </div>
         <div className="map-section">
           <iframe
             className="map"

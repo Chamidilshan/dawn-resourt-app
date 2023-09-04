@@ -7,6 +7,8 @@
   color: #fff;
 }
 
+
+
 .column {
   flex: 1;
 }
@@ -15,8 +17,26 @@
   display: flex;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #01959a;
+}
+
 .map-section {
   margin-bottom: 1rem;
+  padding-top: 20px;
 }
 
 .map {

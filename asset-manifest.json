@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dawn-resourt-app/static/css/main.3d659db5.css",
-    "main.js": "/dawn-resourt-app/static/js/main.36ee369f.js",
+    "main.js": "/dawn-resourt-app/static/js/main.b6487199.js",
     "static/js/787.926decbc.chunk.js": "/dawn-resourt-app/static/js/787.926decbc.chunk.js",
     "static/media/videoplayback.mov": "/dawn-resourt-app/static/media/videoplayback.3cec0770ee7dd9c08949.mov",
     "static/media/18.jpg": "/dawn-resourt-app/static/media/18.744cee4106b8361ccb07.jpg",
@@ -40,11 +40,11 @@
     "static/media/logo.svg": "/dawn-resourt-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/dawn-resourt-app/index.html",
     "main.3d659db5.css.map": "/dawn-resourt-app/static/css/main.3d659db5.css.map",
-    "main.36ee369f.js.map": "/dawn-resourt-app/static/js/main.36ee369f.js.map",
+    "main.b6487199.js.map": "/dawn-resourt-app/static/js/main.b6487199.js.map",
     "787.926decbc.chunk.js.map": "/dawn-resourt-app/static/js/787.926decbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d659db5.css",
-    "static/js/main.36ee369f.js"
+    "static/js/main.b6487199.js"
   ]
 }

@@ -3,7 +3,7 @@
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.09);
   padding: 30px;
-  height: 45rem;
+  height: auto;
 }
 
 .about h1 {
@@ -92,7 +92,7 @@
 @media screen and (max-width: 850px) {
   .about {
     margin: 4rem 2rem;
-    height: 65rem;
+    height: auto;
   }
 
   .first-des {

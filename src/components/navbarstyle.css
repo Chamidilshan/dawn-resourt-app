@@ -12,6 +12,7 @@
   transition: all 600ms ease;
   top: 0px;
   transform: translate(-50%);
+  
 }
 
 .logo-scrolled {
@@ -33,7 +34,7 @@
 }
 
 .scrolled {
-  background-color: #fff;
+  background-color: rgb(249, 246, 242);
   transition: all 600ms ease;
 }
 

@@ -12,25 +12,23 @@
   transition: all 600ms ease;
   top: 0px;
   transform: translate(-50%);
-  
 }
 
 .logo-scrolled {
   width: 100px;
   height: 50px;
   margin-left: 30px;
-  display: block;
-  filter: invert(100%);
   transition: all 350ms ease;
+  display: block;
 }
 
 .logo {
   width: 100px;
   height: 50px;
   margin-left: 30px;
-  transition: all 350ms ease;
   display: block;
-  
+  filter: invert(100%);
+  transition: all 350ms ease;
 }
 
 .scrolled {
@@ -87,11 +85,24 @@
 }
 
 .nav-links i {
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .nav-links-scrolled i {
-  padding-right: 10px;
+  padding-right: 20px;
+}
+
+li:not(:last-child) {
+  border-right: 2px solid #ffffff;
+}
+
+.fa-times {
+  position: fixed;
+  top: 27px;
+  right: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 .nav-links:hover {
@@ -118,16 +129,37 @@
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
     background-color: rgb(255, 255, 255);
   }
+  li:not(:last-child) {
+    border-right: 2px solid #ffffff00;
+  }
 
   .scrolled {
     background-color: #ffffff;
   }
 
+  .logo {
+    width: 80px;
+    height: 39px;
+    margin-left: 15px;
+    transition: all 350ms ease;
+    display: block;
+    margin-top: 1px;
+  }
+
+  .logo-scrolled {
+    width: 80px;
+    height: 39px;
+    margin-left: 15px;
+    margin-top: 1px;
+    transition: all 350ms ease;
+    display: block;
+  }
+  
   .fa-times {
     color: white;
   }
 
-  .fa-times .scrolled {
+  .fa-times .scrolled-hamburger .all {
     color: rgb(0, 0, 0);
   }
 

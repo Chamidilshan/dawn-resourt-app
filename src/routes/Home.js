@@ -4,7 +4,7 @@ import Highlights from "../components/Highlights";
 import Description from "../components/Description";
 
 import Hero from "../components/Hero";
-import myImage from "../assets/location.jpeg";
+import myImage from "../assets/home.jpeg";
 import Footer from "../components/Footer";
 import Video from "../components/video";
 import Trip from "../components/Trip";

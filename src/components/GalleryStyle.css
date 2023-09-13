@@ -73,17 +73,6 @@
   transform: scale(1);
 }
 
-.fa-times{
- position: fixed;
- top: 10px;
- right: 10px;
- width: 2rem;
- height: 2rem;
- padding: 5px;
- background-color: rgba(0,0,0,0.4); 
- color: aliceblue;
- cursor: pointer;
-}
 
 
 .model img {
@@ -131,6 +120,10 @@
     padding-top:50px ;
     text-align: center;
   
+  }
+
+  .scrolled{
+    color: rgb(0, 0, 0);
   }
   
   #dining{

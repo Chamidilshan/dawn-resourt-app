@@ -49,13 +49,13 @@ class Navbar extends Component {
 
       <nav className={`NavBarItems ${isScrolled ? 'scrolled' : ''}`} >
         {/* <h1 className={`${isScrolled ? 'solid' : 'navbar-logo'}`}>Dawn Resorts</h1> */}
-        <div>
-          <img className={`logo${isScrolled?'':'-scrolled'}`} src={logo} alt="" />
+        <div className="logoholder">
+          <img className={`logo${isScrolled?'-scrolled':''}`} src={logo} alt="" />
         </div>
         <div className="menu-icons">
           <i
             onClick={this.handleclick}
-            className={(this.state.clicked ? "fas fa-times" : "fas fa-bars")+(isScrolled?' scrolled-hamburger':'')}
+            className={(this.state.clicked ? "fa fa-times" : "fas fa-bars")+(isScrolled?' scrolled-hamburger all':' all')}
           ></i>
         </div>
         <ul className={(this.state.clicked ? "nav-menu active" : "nav-menu")+(isScrolled?' scrolled':'')}>

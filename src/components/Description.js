@@ -3,7 +3,6 @@ import statue from "../assets/tea.jpeg";
 import statue2 from "../assets/shade.jpeg";
 import { forwardRef } from "react";
 
-
 const Description = () => {
   return (
     <div className="desc-about">
@@ -11,17 +10,21 @@ const Description = () => {
       <div className="desc-first-des">
         <div className="desc-des-text">
           <p>
-            Advisory Window is a family-owned company and are local experts with
-            a friendly team to support your all insurance and mortgage needs. As
-            your financial adviser/s, we not only give you the best financial
-            advice by providing you with a wide variety of insurance and finance
-            options but we look after you once you’ve signed up for any
-            insurance policies, home loans, and other financial services with
-            us. When insurance claim time comes Advisory Window takes the stress
-            out of the situation and manages your claim. Advisory Window is an
-            intermediary between insurance customers and clients. We make sure
-            you get the best service and advice from a personal claims
-            assistant.
+            Nestled in the heart of nature's embrace, Dawn Resorts is a
+            haven of peace and luxury that beckons you to unwind, rejuvenate,
+            and escape the hustle and bustle of everyday life. With breathtaking
+            views of pristine landscapes, exquisite accommodations, delectable
+            cuisine, and a plethora of relaxation options, dawn resorts is your
+            perfect getaway destination.
+            <br />
+            <br />
+            Our resort boasts a range of meticulously designed accommodations,
+            each thoughtfully crafted to provide you with comfort and serenity.
+            Whether you choose a cozy cabin, a luxurious villa, or a spacious
+            suite, you'll find tasteful decor, modern amenities, and panoramic
+            views of the surrounding natural beauty. Sink into plush beds, revel
+            in the serenity of your private terrace, and let the soothing sounds
+            of nature lull you into a peaceful slumber.
           </p>
         </div>
 
@@ -30,8 +33,6 @@ const Description = () => {
           <img src={statue2} alt="img" />
         </div>
       </div>
-      
-      
     </div>
   );
 };

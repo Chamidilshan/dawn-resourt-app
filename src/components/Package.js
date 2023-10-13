@@ -1,5 +1,5 @@
 import "./PackagesStyle.css";
-import statue from "../assets/18.jpg";
+import statue from "../assets/23.jpg";
 
 function Package(){
     return(

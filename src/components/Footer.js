@@ -50,7 +50,7 @@ const Footer = () => {
             <h4>Explore</h4>
             <a href="/Gallery">Accommodations</a>
             <br/>
-            <a href="/Gallery">Dining</a>
+            <a href="#dining">Dining</a>
             <br/>
             <a href="/Gallery">Activities</a>
             <br/>

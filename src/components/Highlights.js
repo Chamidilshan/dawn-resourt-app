@@ -2,24 +2,26 @@ import "./HighlightsStyle.css";
 import statue from "../assets/tea.jpeg";
 import statue2 from "../assets/shade.jpeg";
 
-const Highlights=()=>{
-    return(
+const Highlights = () => {
+  return (
     <div className="high-highlights">
       <h1>Highlights</h1>
       <div className="high-first-des-reverse">
         <div className="high-des-text">
           <p className="high-para">
-            Advisory Window is a family-owned company and are local experts with
-            a friendly team to support your all insurance and mortgage needs. As
-            your financial adviser/s, we not only give you the best financial
-            advice by providing you with a wide variety of insurance and finance
-            options but we look after you once you’ve signed up for any
-            insurance policies, home loans, and other financial services with
-            us. When insurance claim time comes Advisory Window takes the stress
-            out of the situation and manages your claim. Advisory Window is an
-            intermediary between insurance customers and clients. We make sure
-            you get the best service and advice from a personal claims
-            assistant.
+            At Dawn Resorts, relaxation takes center stage. Take a dip in our
+            crystal-clear natural water streams, surrounded by lush gardens, or
+            challenge your friends to a game of tennis on our pristine courts.
+            For those seeking adventure, explore nearby hiking trails, embark on
+            wildlife safaris, or simply bask in the serene beauty of our
+            surroundings.
+            <br />
+            <br />
+            Whether you're planning a romantic wedding, a corporate retreat, or
+            a family reunion, our dedicated event planners are at your service
+            to ensure your special occasion is flawless. Our versatile event
+            spaces can be tailored to your needs, providing the perfect backdrop
+            for your cherished memories.
           </p>
         </div>
 
@@ -28,9 +30,7 @@ const Highlights=()=>{
           <img src={statue2} alt="img" />
         </div>
       </div>
-      
-      
     </div>
-    )
-}
+  );
+};
 export default Highlights;

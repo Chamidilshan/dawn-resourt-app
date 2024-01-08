@@ -1,7 +1,7 @@
 // import "./TripStyle.css";
 import TripData from "./TripData";
 import Place1 from "../assets/sembuwatte.jpg";
-import Place2 from "../assets/horton.jpg";
+import Place2 from "../assets/nalanda.jpg";
 import Place3 from "../assets/riverston.jpg";
 
 function Trip(){

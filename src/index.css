@@ -10,7 +10,7 @@ body {
   font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(249, 246, 242);
+  background-color: rgb(255, 255, 255);
 }
 ::-webkit-scrollbar {
   display: none;

@@ -12,6 +12,7 @@ import Trip from "../components/Trip";
 function Home() {
   return (
     <>
+    <Navbar />
       <Hero
         cName="hero"
         heroImg={myImage}
@@ -26,7 +27,7 @@ function Home() {
       <Video/>
       <Highlights />
       <Trip />
-      <Navbar />
+      
       <Footer />
     </>
   );

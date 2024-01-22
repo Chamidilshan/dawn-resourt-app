@@ -22,21 +22,29 @@
     width: 32%;
     text-align: start;
     box-shadow: 0 5px 25px 2px rgba(0,0,0,.1);
-    border-radius: 7px;
+
+    border-radius: 40px;
     cursor: pointer;
     padding: 1rem .8rem;  
-    background-color: rgb(255, 255, 255);
+    border: solid 1px rgba(76, 144, 76, 0.455);
+    background-color: rgba(0, 0, 0, 0.09);
 }
 
 .t-card h2{
     padding-bottom: 20px;
+    text-align: center;
     padding-top: 20px;
 }
 
 .t-image{ 
-    height: 200px;
+    height: 400px;
+    margin: auto;
     overflow: hidden;
-    border-radius: 7px;
+    
+    border: 1px solid green;
+    width: 90%;
+    /* padding: 0 20px; */
+    border-radius: 50%;
 }
 
 .t-image img{
@@ -55,7 +63,7 @@
    padding: .9rem 0 .2rem 0; 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 850px){
     .trip{
         margin: 4rem 1.5rem;
     }

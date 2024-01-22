@@ -1,7 +1,7 @@
 // import "./TripStyle.css";
 import TripData from "./TripData";
 import Place1 from "../assets/sembuwatte.jpg";
-import Place2 from "../assets/horton.jpg";
+import Place2 from "../assets/nalanda.jpg";
 import Place3 from "../assets/riverston.jpg";
 
 function Trip(){
@@ -21,8 +21,8 @@ function Trip(){
 
     <TripData
       image={Place2}
-      heading="Horton Plains"
-      text="Venture into the enchanting landscape of Horton Plains, a UNESCO World Heritage Site. This highland plateau is a haven for nature enthusiasts and hikers. The famous 'World's End' offers panoramic views of mist-covered valleys and lush greenery. As you trek through the diverse ecosystems, keep an eye out for unique wildlife and endemic plants. Horton Plains promises an unforgettable journey through pristine nature."
+      heading="Nalanda"
+      text="Nalanda is an ancient archaeological site located in the North Central Province of Sri Lanka. It is renowned for the ruins of Nalanda Gedige, a unique blend of Hindu and Buddhist architecture, reflecting the historical coexistence of both religions in the region. Nalanda Gedige is situated near the town of Matale, approximately 25 kilometers from Kandy."
     />
 
     <TripData
